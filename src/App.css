@@ -35,6 +35,18 @@ overlay{
   background-color: white;
 }
 
+@media (max-width:800px){
+  .modalDiv{
+    height:70vw;
+    width:70vw;
+  }
+
+  .ENQUIREHEADING{
+    font-size:1.75rem;
+  }
+
+}
+
 .modalDivShow{
   top:0;
   z-index: 1;
@@ -45,6 +57,8 @@ overlay{
   top:10vw;
   right:-1vw;
 }
+
+
 
 .closeModal{
   position:absolute;
